@@ -1,0 +1,179 @@
+.container__footer {
+	display: flex;
+	height: 315px;
+}
+
+.container__footer__menu {
+	display: flex;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #e4e5ea;
+	margin-bottom: 10px;
+}
+.container__footer__company-subname:hover {
+	cursor: pointer;
+	color: #e25914;
+	transition: all 600ms;
+}
+
+.container__footer__menu-subname:hover {
+	cursor: pointer;
+	color: #e25914;
+	transition: all 600ms;
+}
+
+.container__footer__case-subname:hover {
+	cursor: pointer;
+	color: #e25914;
+	transition: all 600ms;
+}
+
+.container__footer__company-list {
+	padding: 0;
+}
+.container__footer__company-name {
+	margin-bottom: 20px;
+	color: #656566;
+}
+
+.container__footer__menu-name {
+	margin-bottom: 20px;
+	color: #656566;
+}
+
+.container__footer__case-list {
+	margin-top: 55px;
+}
+.container__footer__contact {
+	margin-left: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 0 20px 0;
+}
+.container__footer__contact-list {
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.container__footer__contact-name {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #656566;
+	margin-bottom: 20px;
+}
+
+.container__footer__contact-subname {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: right;
+	color: #e4e5ea;
+	margin-bottom: 20px;
+}
+
+.container__footer__contact-subname a {
+	text-decoration: none;
+	color: #e4e5ea;
+}
+
+.container__footer__contact-sociallinks {
+	display: flex;
+	justify-content: flex-end;
+}
+.container__footer__contact-sociallinks img {
+	margin-left: 12px;
+}
+
+.container__footer__contact-welbex {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: right;
+	color: #e4e5ea;
+}
+
+.container__footer__contact-blocklabel {
+	text-align: end;
+}
+
+@media (max-width: 1120px) {
+	.container__footer__company-subname {
+		font-size: 12px;
+	}
+	.container__footer__menu-subname {
+		font-size: 12px;
+	}
+	.container__footer__case-subname {
+		font-size: 12px;
+	}
+	.container__footer__contact-subname {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 1120px) {
+	.container__footer__contact {
+		margin-left: 400px;
+	}
+	.container__footer__company-name {
+		font-size: 12px;
+	}
+	.container__footer__menu-name {
+		font-size: 12px;
+	}
+	.container__footer__contact-name {
+		font-size: 12px;
+	}
+}
+@media (max-width: 880px) {
+	.container__footer__contact {
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 660px) {
+	.container__footer {
+		display: flex;
+		flex-direction: column;
+	}
+	.container__footer__menu-list {
+		padding: 0;
+	}
+	.container__footer__contact-name {
+		text-align: start;
+	}
+	.container__footer__contact-subname {
+		text-align: start;
+	}
+	.container__footer__contact-sociallinks {
+		justify-content: start;
+	}
+	img {
+		margin: 0px 10px 0px 0px;
+		margin-left: 0px !important;
+	}
+	.container__footer__contact-blocklabel {
+		text-align: start;
+	}
+}
